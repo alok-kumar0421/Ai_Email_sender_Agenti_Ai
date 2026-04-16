@@ -40,6 +40,8 @@ This app uses AI to generate and send well-structured emails for various purpose
 
 3. Create `.env` file:
    GOOGLE_API_KEY=your_api_key_here
+   SENDER_EMAIL=[your_email@gmail.com](mailto:your_email@gmail.com)
+   SENDER_PASSKEY=your_app_password
 
 4. Run the app:
    streamlit run app.py
@@ -60,12 +62,6 @@ This app uses AI to generate and send well-structured emails for various purpose
 * Do NOT use your real Gmail password
 * Always use a Gmail App Password
 * `.env` file is excluded for security
-
----
-
-## 📸 Preview
-
-(Add your screenshot here as screenshot.png)
 
 ---
 
